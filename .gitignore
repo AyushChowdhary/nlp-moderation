@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# IDE settings
+.vscode/
+
+# Logs
+*.log
+
+# Exported machine-learning models
+onnx_sentiment_model/
+onnx_sentiment_model_int8/
